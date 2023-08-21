@@ -1,0 +1,71 @@
+.header {
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+.headerContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: beige;
+  margin: 20px 0px 100px 0px;
+}
+.headerContainer.listMode {
+  margin: 20px 0px 10px 0px;
+}
+
+.headerList {
+  display: flex;
+  gap: 40px;
+}
+.headerListItem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.headerListItem.active {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.headerButton {
+  background-color: #1c93ae;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+}
+.headerSearch {
+  height: 30px;
+  background-color: white;
+  display: flex;
+  border: 3px solid rgb(12, 12, 8);
+  padding: 10px 0px;
+  border-radius: 20px;
+  align-items: center;
+  gap: 80px;
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  max-width: 1024px;
+}
+.headerIcon {
+  color: black;
+}
+.headerSearchItem {
+  display: flex;
+  
+  gap: 10px;
+  margin: 0px 10px 0px 10px;
+  width: 100%;
+  max-width: 1024px;
+}
+.headerSearchInput {
+  border: none;
+  outline: none;
+}
+.headerSearchItem.inputButton {
+  
+}

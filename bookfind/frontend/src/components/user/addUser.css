@@ -1,0 +1,13 @@
+.formbuttons{
+    display: flex;
+    align-items: flex-end;
+    gap: 40px;
+   
+}
+.addUserContainer{
+    margin-top:10px ;
+    display:flex;
+    flex-direction: column;
+    align-items:center ;
+    padding: 0% 20%;
+ }

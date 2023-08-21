@@ -1,0 +1,23 @@
+.updateBookContainer{
+    margin-top:10px ;
+    display:flex;
+    flex-direction: column;
+    align-items:center ;
+    padding: 0% 20%;
+}
+.updateClassesform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1024px;
+    width: 400px;
+   
+    padding: 20px 40px;
+    border: 2px solid #003580;
+    border-radius: 20px;
+}
+.updateformButtons{
+    display: flex;
+    align-items: flex-end;
+    gap: 40px;
+}

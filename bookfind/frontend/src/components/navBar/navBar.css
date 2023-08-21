@@ -1,0 +1,29 @@
+.navBar{
+height: 50px;
+background-color: #003580;
+display : flex;
+justify-content : center;
+}
+.navContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: beige;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: 300px;
+    color: inherit;
+    height: 10px; 
+    background-image: "/Users/merafasbe/Desktop/September-19/github/book-finder-app/frontend/public/logo.png";
+  
+}
+.navButton{
+    margin-left: 20px;
+    border: none;
+    padding:5px 10px ;
+    color: rgb(34, 34, 12);
+    cursor: pointer;
+
+}
